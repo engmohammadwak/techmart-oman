@@ -11,7 +11,7 @@
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.0",
         "spatie/laravel-permission": "^6.0",
-        "tightenco/ziggy": "^3.0"
+        "tightenco/ziggy": "^2.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
@@ -72,7 +72,8 @@
                 "PKSA-8qx3-n5y5-vvnd",
                 "PKSA-q46n-4fdk-zjr4",
                 "PKSA-qzrn-rnz3-85w1",
-                "PKSA-w7xr-vk7n-rstm"
+                "PKSA-w7xr-vk7n-rstm",
+                "PKSA-njrm-6dtg-m2pc"
             ]
         }
     },
