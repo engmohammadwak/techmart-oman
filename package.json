@@ -6,7 +6,7 @@
         "build": "vite build"
     },
     "devDependencies": {
-        "@inertiajs/vue3": "^1.0.0",
+        "@inertiajs/vue3": "^2.0.0",
         "@tailwindcss/vite": "^4.0.0",
         "@vitejs/plugin-vue": "^5.0.0",
         "axios": "^1.7.4",
@@ -20,7 +20,7 @@
         "@vueuse/core": "^12.0.0",
         "chart.js": "^4.4.0",
         "vue-chartjs": "^1.1.0",
-        "vue-i18n": "^10.0.0",
+        "vue-i18n": "^11.0.0",
         "ziggy-js": "^2.4.0"
     }
 }

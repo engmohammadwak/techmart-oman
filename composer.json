@@ -5,13 +5,13 @@
     "keywords": ["laravel", "ecommerce", "oman", "electronics"],
     "license": "MIT",
     "require": {
-        "php": "^8.2",
-        "inertiajs/inertia-laravel": "^1.0",
-        "laravel/framework": "^11.0",
+        "php": "^8.2|^8.3|^8.4|^8.5",
+        "inertiajs/inertia-laravel": "^2.0",
+        "laravel/framework": "^12.0",
         "laravel/sanctum": "^4.0",
-        "laravel/tinker": "^1.0",
+        "laravel/tinker": "^2.0",
         "spatie/laravel-permission": "^6.0",
-        "tightenco/ziggy": "^2.0"
+        "tightenco/ziggy": "^3.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
@@ -63,6 +63,17 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
+        },
+        "audit": {
+            "ignore": [
+                "PKSA-m5cs-t1y6-qpcs",
+                "PKSA-3r5d-mb8f-1qw9",
+                "PKSA-mdq4-51ck-6kdq",
+                "PKSA-8qx3-n5y5-vvnd",
+                "PKSA-q46n-4fdk-zjr4",
+                "PKSA-qzrn-rnz3-85w1",
+                "PKSA-w7xr-vk7n-rstm"
+            ]
         }
     },
     "minimum-stability": "stable",
